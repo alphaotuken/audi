@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Audi A8 Preview</title>
 </head>
 <body>
     <video src="videos/audiA8.mp4" id="audi-video" controls muted autoplay></video>
+    <button id="menu-opener">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="menuCover">
+        <div class="logoCover">
+            <img src="imgs/Audi-Logo.png" alt="" class="logo">
+        </div>
+        <ul>
+            <li>HOME</li>
+            <li>CAREER</li>
+            <li>CAR MODELS</li>
+            <li>About Company</li>
+        </ul>
+        <p class="closeBtn">close</p>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
