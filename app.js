@@ -23,7 +23,7 @@ window.addEventListener("wheel", e => {
             carVideo.pause();
         },1000);
     } else {
-        carVideo.currentTime -= 1;
+        carVideo.currentTime -= 0.7;
     }
 });
 
