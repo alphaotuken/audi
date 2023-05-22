@@ -1,4 +1,3 @@
-
 // Targeting DOM Elements
 
 let menuCover = document.querySelector(".menuCover"),
